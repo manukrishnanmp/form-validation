@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <form name="submit-to-google-sheet">
+            <h3>Contact Me</h3>
+            <input type="text" name="Name" placeholder="Name" auto-complete="off" required>
+            <input type="email" name="Email" placeholder="Email" auto-complete="off" required>
+            <textarea name="Message" placeholder="Your Message" rows="4" auto-complete="off" required></textarea>
+            <button type="submit" name="MyButton">Send</button>
+            <span id="msg"></span>
+            <br>
+            <a href="https://docs.google.com/spreadsheets/d/1WQhDrStW6x6bz3IdXsj0v7_N52KnOia08rI6QKWpDIM/edit#gid=0" target="_blank">Click Here to view the Data</a>
+            
+        </form>
+
+
+
+
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
